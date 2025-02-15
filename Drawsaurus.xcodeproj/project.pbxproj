@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DADC92F31B783D2700B3B7F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADC92F21B783D2700B3B7F6 /* AppDelegate.swift */; };
+		DADC92F61B783D2700B3B7F6 /* Drawsaurus.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DADC92F41B783D2700B3B7F6 /* Drawsaurus.xcdatamodeld */; };
+		DADC92F81B783D2700B3B7F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADC92F71B783D2700B3B7F6 /* ViewController.swift */; };
+		DADC92FB1B783D2700B3B7F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DADC92F91B783D2700B3B7F6 /* Main.storyboard */; };
+		DADC92FD1B783D2700B3B7F6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DADC92FC1B783D2700B3B7F6 /* Images.xcassets */; };
+		DADC93001B783D2700B3B7F6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DADC92FE1B783D2700B3B7F6 /* LaunchScreen.xib */; };
+		DADC930C1B783D2700B3B7F6 /* DrawsaurusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADC930B1B783D2700B3B7F6 /* DrawsaurusTests.swift */; };
+		DADC93161B783FD600B3B7F6 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DADC93151B783FD600B3B7F6 /* FBSDKCoreKit.framework */; };
+		DADC93181B783FEA00B3B7F6 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DADC93171B783FEA00B3B7F6 /* FBSDKLoginKit.framework */; };
+		DADC931A1B78464500B3B7F6 /* FBAudienceNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DADC93191B78464500B3B7F6 /* FBAudienceNetwork.framework */; };
+		DADC931E1B784BDB00B3B7F6 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DADC931B1B784BDB00B3B7F6 /* Bolts.framework */; };
+		DADC931F1B784BDB00B3B7F6 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DADC931C1B784BDB00B3B7F6 /* Parse.framework */; };
+		DADC93221B784C5D00B3B7F6 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DADC93211B784C5D00B3B7F6 /* Accounts.framework */; };
+		DADC93241B784C6700B3B7F6 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DADC93231B784C6700B3B7F6 /* AudioToolbox.framework */; };
+		DADC93261B784C6E00B3B7F6 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DADC93251B784C6E00B3B7F6 /* CFNetwork.framework */; };
+		DADC93281B784C7900B3B7F6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DADC93271B784C7900B3B7F6 /* CoreGraphics.framework */; };
+		DADC932A1B784C7E00B3B7F6 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DADC93291B784C7E00B3B7F6 /* CoreLocation.framework */; };
+		DADC932C1B784C8B00B3B7F6 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DADC932B1B784C8B00B3B7F6 /* MobileCoreServices.framework */; };
+		DADC932E1B784C9400B3B7F6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DADC932D1B784C9400B3B7F6 /* QuartzCore.framework */; };
+		DADC93301B784C9A00B3B7F6 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DADC932F1B784C9A00B3B7F6 /* Security.framework */; };
+		DADC93321B784CA100B3B7F6 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DADC93311B784CA100B3B7F6 /* Social.framework */; };
+		DADC93341B784CA800B3B7F6 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DADC93331B784CA800B3B7F6 /* StoreKit.framework */; };
+		DADC93361B784CB200B3B7F6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DADC93351B784CB200B3B7F6 /* SystemConfiguration.framework */; };
+		DADC93381B784CBF00B3B7F6 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DADC93371B784CBF00B3B7F6 /* libz.dylib */; };
+		DADC933A1B784CCC00B3B7F6 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DADC93391B784CCC00B3B7F6 /* libsqlite3.dylib */; };
+		DADC93411B7856FC00B3B7F6 /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DADC93401B7856FC00B3B7F6 /* ParseFacebookUtilsV4.framework */; };
+		DADC93431B7FCAA300B3B7F6 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADC93421B7FCAA300B3B7F6 /* MainViewController.swift */; };
+		DADC934F1B837D6C00B3B7F6 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADC934E1B837D6C00B3B7F6 /* Game.swift */; };
+		DADC93511B83876500B3B7F6 /* NewGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADC93501B83876500B3B7F6 /* NewGameViewController.swift */; };
+		DADC93531B8579B300B3B7F6 /* DrawViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADC93521B8579B300B3B7F6 /* DrawViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DADC93061B783D2700B3B7F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DADC92E51B783D2700B3B7F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DADC92EC1B783D2700B3B7F6;
+			remoteInfo = Drawsaurus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DADC92ED1B783D2700B3B7F6 /* Drawsaurus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Drawsaurus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DADC92F11B783D2700B3B7F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DADC92F21B783D2700B3B7F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DADC92F51B783D2700B3B7F6 /* Drawsaurus.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Drawsaurus.xcdatamodel; sourceTree = "<group>"; };
+		DADC92F71B783D2700B3B7F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DADC92FA1B783D2700B3B7F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DADC92FC1B783D2700B3B7F6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DADC92FF1B783D2700B3B7F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DADC93051B783D2700B3B7F6 /* DrawsaurusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawsaurusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DADC930A1B783D2700B3B7F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DADC930B1B783D2700B3B7F6 /* DrawsaurusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawsaurusTests.swift; sourceTree = "<group>"; };
+		DADC93151B783FD600B3B7F6 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = ../../../Documents/FacebookSDK/FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		DADC93171B783FEA00B3B7F6 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = ../../../Documents/FacebookSDK/FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		DADC93191B78464500B3B7F6 /* FBAudienceNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBAudienceNetwork.framework; path = ../../../Documents/FacebookSDK/FBAudienceNetwork.framework; sourceTree = "<group>"; };
+		DADC931B1B784BDB00B3B7F6 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "../../../Downloads/parse-library-1.7.5/Bolts.framework"; sourceTree = "<group>"; };
+		DADC931C1B784BDB00B3B7F6 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "../../../Downloads/parse-library-1.7.5/Parse.framework"; sourceTree = "<group>"; };
+		DADC93211B784C5D00B3B7F6 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		DADC93231B784C6700B3B7F6 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		DADC93251B784C6E00B3B7F6 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		DADC93271B784C7900B3B7F6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DADC93291B784C7E00B3B7F6 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		DADC932B1B784C8B00B3B7F6 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		DADC932D1B784C9400B3B7F6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		DADC932F1B784C9A00B3B7F6 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		DADC93311B784CA100B3B7F6 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		DADC93331B784CA800B3B7F6 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		DADC93351B784CB200B3B7F6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		DADC93371B784CBF00B3B7F6 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		DADC93391B784CCC00B3B7F6 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		DADC933C1B784D8E00B3B7F6 /* Drawsaurus-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Drawsaurus-Bridging-Header.h"; sourceTree = "<group>"; };
+		DADC93401B7856FC00B3B7F6 /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseFacebookUtilsV4.framework; path = "../../../Downloads/parse-library-1.7.5/ParseFacebookUtilsV4.framework"; sourceTree = "<group>"; };
+		DADC93421B7FCAA300B3B7F6 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		DADC934E1B837D6C00B3B7F6 /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		DADC93501B83876500B3B7F6 /* NewGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewGameViewController.swift; sourceTree = "<group>"; };
+		DADC93521B8579B300B3B7F6 /* DrawViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DADC92EA1B783D2700B3B7F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DADC933A1B784CCC00B3B7F6 /* libsqlite3.dylib in Frameworks */,
+				DADC93381B784CBF00B3B7F6 /* libz.dylib in Frameworks */,
+				DADC93411B7856FC00B3B7F6 /* ParseFacebookUtilsV4.framework in Frameworks */,
+				DADC93361B784CB200B3B7F6 /* SystemConfiguration.framework in Frameworks */,
+				DADC93341B784CA800B3B7F6 /* StoreKit.framework in Frameworks */,
+				DADC93321B784CA100B3B7F6 /* Social.framework in Frameworks */,
+				DADC93301B784C9A00B3B7F6 /* Security.framework in Frameworks */,
+				DADC932E1B784C9400B3B7F6 /* QuartzCore.framework in Frameworks */,
+				DADC932C1B784C8B00B3B7F6 /* MobileCoreServices.framework in Frameworks */,
+				DADC932A1B784C7E00B3B7F6 /* CoreLocation.framework in Frameworks */,
+				DADC93281B784C7900B3B7F6 /* CoreGraphics.framework in Frameworks */,
+				DADC93261B784C6E00B3B7F6 /* CFNetwork.framework in Frameworks */,
+				DADC93241B784C6700B3B7F6 /* AudioToolbox.framework in Frameworks */,
+				DADC93221B784C5D00B3B7F6 /* Accounts.framework in Frameworks */,
+				DADC931A1B78464500B3B7F6 /* FBAudienceNetwork.framework in Frameworks */,
+				DADC93181B783FEA00B3B7F6 /* FBSDKLoginKit.framework in Frameworks */,
+				DADC93161B783FD600B3B7F6 /* FBSDKCoreKit.framework in Frameworks */,
+				DADC931E1B784BDB00B3B7F6 /* Bolts.framework in Frameworks */,
+				DADC931F1B784BDB00B3B7F6 /* Parse.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DADC93021B783D2700B3B7F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DADC92E41B783D2700B3B7F6 = {
+			isa = PBXGroup;
+			children = (
+				DADC933B1B784D3C00B3B7F6 /* Frameworks */,
+				DADC92EF1B783D2700B3B7F6 /* Drawsaurus */,
+				DADC93081B783D2700B3B7F6 /* DrawsaurusTests */,
+				DADC92EE1B783D2700B3B7F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DADC92EE1B783D2700B3B7F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DADC92ED1B783D2700B3B7F6 /* Drawsaurus.app */,
+				DADC93051B783D2700B3B7F6 /* DrawsaurusTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DADC92EF1B783D2700B3B7F6 /* Drawsaurus */ = {
+			isa = PBXGroup;
+			children = (
+				DADC92F21B783D2700B3B7F6 /* AppDelegate.swift */,
+				DADC92F91B783D2700B3B7F6 /* Main.storyboard */,
+				DADC92FC1B783D2700B3B7F6 /* Images.xcassets */,
+				DADC92FE1B783D2700B3B7F6 /* LaunchScreen.xib */,
+				DADC92F41B783D2700B3B7F6 /* Drawsaurus.xcdatamodeld */,
+				DADC92F01B783D2700B3B7F6 /* Supporting Files */,
+				DADC933C1B784D8E00B3B7F6 /* Drawsaurus-Bridging-Header.h */,
+				DADC92F71B783D2700B3B7F6 /* ViewController.swift */,
+				DADC93421B7FCAA300B3B7F6 /* MainViewController.swift */,
+				DADC934E1B837D6C00B3B7F6 /* Game.swift */,
+				DADC93501B83876500B3B7F6 /* NewGameViewController.swift */,
+				DADC93521B8579B300B3B7F6 /* DrawViewController.swift */,
+			);
+			path = Drawsaurus;
+			sourceTree = "<group>";
+		};
+		DADC92F01B783D2700B3B7F6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DADC92F11B783D2700B3B7F6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DADC93081B783D2700B3B7F6 /* DrawsaurusTests */ = {
+			isa = PBXGroup;
+			children = (
+				DADC930B1B783D2700B3B7F6 /* DrawsaurusTests.swift */,
+				DADC93091B783D2700B3B7F6 /* Supporting Files */,
+			);
+			path = DrawsaurusTests;
+			sourceTree = "<group>";
+		};
+		DADC93091B783D2700B3B7F6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DADC930A1B783D2700B3B7F6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DADC933B1B784D3C00B3B7F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DADC93391B784CCC00B3B7F6 /* libsqlite3.dylib */,
+				DADC93371B784CBF00B3B7F6 /* libz.dylib */,
+				DADC93401B7856FC00B3B7F6 /* ParseFacebookUtilsV4.framework */,
+				DADC93351B784CB200B3B7F6 /* SystemConfiguration.framework */,
+				DADC93331B784CA800B3B7F6 /* StoreKit.framework */,
+				DADC93311B784CA100B3B7F6 /* Social.framework */,
+				DADC932F1B784C9A00B3B7F6 /* Security.framework */,
+				DADC932D1B784C9400B3B7F6 /* QuartzCore.framework */,
+				DADC932B1B784C8B00B3B7F6 /* MobileCoreServices.framework */,
+				DADC93291B784C7E00B3B7F6 /* CoreLocation.framework */,
+				DADC93271B784C7900B3B7F6 /* CoreGraphics.framework */,
+				DADC93251B784C6E00B3B7F6 /* CFNetwork.framework */,
+				DADC93231B784C6700B3B7F6 /* AudioToolbox.framework */,
+				DADC93211B784C5D00B3B7F6 /* Accounts.framework */,
+				DADC931B1B784BDB00B3B7F6 /* Bolts.framework */,
+				DADC931C1B784BDB00B3B7F6 /* Parse.framework */,
+				DADC93191B78464500B3B7F6 /* FBAudienceNetwork.framework */,
+				DADC93171B783FEA00B3B7F6 /* FBSDKLoginKit.framework */,
+				DADC93151B783FD600B3B7F6 /* FBSDKCoreKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DADC92EC1B783D2700B3B7F6 /* Drawsaurus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DADC930F1B783D2700B3B7F6 /* Build configuration list for PBXNativeTarget "Drawsaurus" */;
+			buildPhases = (
+				DADC92E91B783D2700B3B7F6 /* Sources */,
+				DADC92EA1B783D2700B3B7F6 /* Frameworks */,
+				DADC92EB1B783D2700B3B7F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Drawsaurus;
+			productName = Drawsaurus;
+			productReference = DADC92ED1B783D2700B3B7F6 /* Drawsaurus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DADC93041B783D2700B3B7F6 /* DrawsaurusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DADC93121B783D2700B3B7F6 /* Build configuration list for PBXNativeTarget "DrawsaurusTests" */;
+			buildPhases = (
+				DADC93011B783D2700B3B7F6 /* Sources */,
+				DADC93021B783D2700B3B7F6 /* Frameworks */,
+				DADC93031B783D2700B3B7F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DADC93071B783D2700B3B7F6 /* PBXTargetDependency */,
+			);
+			name = DrawsaurusTests;
+			productName = DrawsaurusTests;
+			productReference = DADC93051B783D2700B3B7F6 /* DrawsaurusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DADC92E51B783D2700B3B7F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = JRC;
+				TargetAttributes = {
+					DADC92EC1B783D2700B3B7F6 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					DADC93041B783D2700B3B7F6 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = DADC92EC1B783D2700B3B7F6;
+					};
+				};
+			};
+			buildConfigurationList = DADC92E81B783D2700B3B7F6 /* Build configuration list for PBXProject "Drawsaurus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DADC92E41B783D2700B3B7F6;
+			productRefGroup = DADC92EE1B783D2700B3B7F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DADC92EC1B783D2700B3B7F6 /* Drawsaurus */,
+				DADC93041B783D2700B3B7F6 /* DrawsaurusTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DADC92EB1B783D2700B3B7F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DADC92FB1B783D2700B3B7F6 /* Main.storyboard in Resources */,
+				DADC93001B783D2700B3B7F6 /* LaunchScreen.xib in Resources */,
+				DADC92FD1B783D2700B3B7F6 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DADC93031B783D2700B3B7F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DADC92E91B783D2700B3B7F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DADC92F81B783D2700B3B7F6 /* ViewController.swift in Sources */,
+				DADC934F1B837D6C00B3B7F6 /* Game.swift in Sources */,
+				DADC93511B83876500B3B7F6 /* NewGameViewController.swift in Sources */,
+				DADC92F61B783D2700B3B7F6 /* Drawsaurus.xcdatamodeld in Sources */,
+				DADC93531B8579B300B3B7F6 /* DrawViewController.swift in Sources */,
+				DADC92F31B783D2700B3B7F6 /* AppDelegate.swift in Sources */,
+				DADC93431B7FCAA300B3B7F6 /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DADC93011B783D2700B3B7F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DADC930C1B783D2700B3B7F6 /* DrawsaurusTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DADC93071B783D2700B3B7F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DADC92EC1B783D2700B3B7F6 /* Drawsaurus */;
+			targetProxy = DADC93061B783D2700B3B7F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DADC92F91B783D2700B3B7F6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DADC92FA1B783D2700B3B7F6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DADC92FE1B783D2700B3B7F6 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DADC92FF1B783D2700B3B7F6 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DADC930D1B783D2700B3B7F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DADC930E1B783D2700B3B7F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DADC93101B783D2700B3B7F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/Shark/Documents/FacebookSDK,
+					"/Users/Shark/Downloads/parse-library-1.7.5",
+				);
+				INFOPLIST_FILE = Drawsaurus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Drawsaurus/Drawsaurus-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DADC93111B783D2700B3B7F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/Shark/Documents/FacebookSDK,
+					"/Users/Shark/Downloads/parse-library-1.7.5",
+				);
+				INFOPLIST_FILE = Drawsaurus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Drawsaurus/Drawsaurus-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		DADC93131B783D2700B3B7F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DrawsaurusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Drawsaurus.app/Drawsaurus";
+			};
+			name = Debug;
+		};
+		DADC93141B783D2700B3B7F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DrawsaurusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Drawsaurus.app/Drawsaurus";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DADC92E81B783D2700B3B7F6 /* Build configuration list for PBXProject "Drawsaurus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DADC930D1B783D2700B3B7F6 /* Debug */,
+				DADC930E1B783D2700B3B7F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DADC930F1B783D2700B3B7F6 /* Build configuration list for PBXNativeTarget "Drawsaurus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DADC93101B783D2700B3B7F6 /* Debug */,
+				DADC93111B783D2700B3B7F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DADC93121B783D2700B3B7F6 /* Build configuration list for PBXNativeTarget "DrawsaurusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DADC93131B783D2700B3B7F6 /* Debug */,
+				DADC93141B783D2700B3B7F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DADC92F41B783D2700B3B7F6 /* Drawsaurus.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DADC92F51B783D2700B3B7F6 /* Drawsaurus.xcdatamodel */,
+			);
+			currentVersion = DADC92F51B783D2700B3B7F6 /* Drawsaurus.xcdatamodel */;
+			path = Drawsaurus.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DADC92E51B783D2700B3B7F6 /* Project object */;
+}
